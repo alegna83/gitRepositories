@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script defer src="index.js" charset="utf-8"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="div_repos">
+      <h3 class="title">Repositories with most stars</h3>
+      <button id="hot_repo" class="btn" onclick="getReposData()">
+        Get repositories
+      </button>
+      <div id="table_repos" class="data-table"></div>
+    </div>
+    <div id="div_users">
+      <h3 class="title">Most active users by followers</h3>
+      <button id="prolific_users" class="btn" onclick="getUsersData()">
+        Get users
+      </button>
+      <div id="table_users" class="data-table"></div>
+    </div>
+  </body>
+</html>
